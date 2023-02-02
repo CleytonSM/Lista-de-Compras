@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+body {
+    background: url(css/bg.jpg);
+    background-size: 100vw 100vh;
+}
+
+section {
+    margin: 100px auto;
+    width: 500px;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.seu_carrinho{
+    width: 500px;
+    margin: 20px auto;
+}
+
+label {
+    font-size: 15px;
+}
+
+input, .add, .buy{
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+input {
+    width: calc(100% - 40px);
+    padding: 10px 20px;
+    opacity: 0.65;
+    margin-top: 5px;
+}
+.add, .buy {
+    background: #1F2831;
+    color: #FBFBFB;
+    transition: 0.3s all;
+}
+.add {
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.buy {
+    width: 220px;
+    height: 90px;
+}
+
+.add:hover, .buy:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
