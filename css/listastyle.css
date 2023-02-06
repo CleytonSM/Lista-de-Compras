@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Itim', cursive;
+}
+
+body {
+    background: url(bg.jpg);
+    background-size: 400vw 400vh;
+}
+
+header, main {
+    margin: 20px auto;
+}
+
+header, main, .armazem, .finalizar{
+    width: 500px;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+.categorias, .adicionar, .finalizar {
+    padding: 15px 8px 15px 8px;
+    font-size: 20px;
+}
+
+.categorias {
+    border-radius: 300px;
+}
+
+.adicionar, .finalizar{
+    border-radius: 100px;
+    background: white;
+    transition: 100ms;
+}
+
+.adicionar {
+    margin-left: 99px;
+    width: 150px;
+}
+
+.adicionar:hover, .finalizar:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+.armazem {
+    margin-top: 15px;
+    width: 485px;
+    height: 500px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 0 0 10px;
+}
+
+.armazena_categorias {
+    border-radius: 300px;
+    font-size: 20px;
+}
+
+.finalizar {
+    border-radius: 100px;
+    background: white;
+    margin-top: 20px;
+}
