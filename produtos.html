@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/produtosstyle.css">
+    <title>Lista de Compras Remasterizada</title>
+</head>
+<body>
+    <header>
+        <h1>Escreva os nomes dos itens:</h1>
+    </header>
+    <section id="box" class="box">
+        <p>
+            <input class="alimento" type="text" name="alimento" id="alimento" placeholder="Ex: Coxão Duro">
+            <button id="remover" class="remover">Remover</button>
+            <button id="adicionarbtn" class="adicionarbtn">Adicionar</button>
+        </p>
+        
+        <p class="espaço">
+            <label class="category" for="item-category">Categoria:</label>
+            <select class="item-category" name="item-category" id="item-category"></select>
+        </p>
+    </section>
+    <div class="armazem">
+        <label id="armazena_alimento" class="armazena_alimento" for="alimento"></label>
+    </div>
+
+    <div class="finalizar_box">
+        <p>
+            <button id="finalizarbnt" class="finalizarbnt">Finalizar</button>
+        </p>
+    </div>
+
+    
+    <script src="produtosjs.js"></script>
+</body>
+</html>
